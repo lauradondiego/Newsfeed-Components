@@ -168,67 +168,6 @@ articles.appendChild(createPanel(date[4], title[4], firstParagraph[4], secondPar
 
 
 
-  // const article = document.createElement('div');
-  // const articleHeader = document.createElement('h2');
-  // const articleDate = document.createElement('p');
-  // const articleP1 = document.createElement('p');
-  // const articleP2 = document.createElement('p');
-  // const articleP3 = document.createElement('p');
-  // const articleButton = document.createElement('button');
- 
-  // create structure of elements
-  // article.appendChild(articleHeader);
-  // article.appendChild(articleDate);
-  // article.appendChild(articleP1);
-  // article.appendChild(articleP2);
-  // article.appendChild(articleP3);
-  // article.appendChild(articleButton);
- 
-  // assign class names
-
-
-//   article.classList.add('article');
-//   articleDate.classList.add('date');
-//   articleButton.classList.add('expandButton');
- 
-//   // set text content
-//   articleHeader.textContent = title;
-//   articleDate.textContent = date;
-//   articleP1.textContent = firstParagraph;
-//   articleP2.textContent = secondParagraph;
-//   articleP3.textContent = thirdParagraph;
-//   articleButton.textContent = "Expand";
- 
-//   // button event
-//   articleButton.addEventListener('click', event => {
-//     // check if button has been clicked
-//     console.log("button clicked", event.target);
- 
-//     // toggle article-open class on/off
-//     article.classList.toggle('article-open');
- 
-//     // check if article-open class is on/off
-//     console.log("article with class", article);
-//   })
- 
-//   return article;
-//  }
- 
-//  const articles = document.querySelector('.articles');
- 
-//  // map over the data, creating a component for each oject
-//  data.forEach(element => {
-//   // check what the element is
-//   console.log(“current element:“, element);
- 
-//   // append the element items to the articles parent div
-//   articles.appendChild(createPanel(element.date, element.title, element.firstParagraph, element.secondParagraph, element.thirdParagraph));
-//  });
-
-
-
-
-
 
 
 
